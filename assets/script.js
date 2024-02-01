@@ -163,11 +163,23 @@ const backHome = () => {
     </header>
 
       <main id="main-home">
-        <div class="carrocel suspense">
-         <img onclick="avancarScroll('.carrocel-content.suspense', 'left')" class="carrocel-seta" src="assets/images/seta-esquerda.webp">
-         <div class="carrocel-content suspense"></div>
-         <img onclick="avancarScroll('.carrocel-content.suspense', 'right')" class="carrocel-seta" src="assets/images/seta-direita.webp">
-        </div>
+       <div class="carrocel suspense">
+     <img onclick="avancarScroll('.carrocel-content.suspense', 'left')" class="carrocel-seta" src="assets/images/seta-esquerda.webp">
+      <div class="carrocel-content suspense"></div>
+       <img onclick="avancarScroll('.carrocel-content.suspense', 'right')" class="carrocel-seta" src="assets/images/seta-direita.webp">
+    </div>
+    
+    <div class="carrocel acao">
+     <img onclick="avancarScroll('.carrocel-content.acao', 'left')" class="carrocel-seta" src="assets/images/seta-esquerda.webp">
+      <div class="carrocel-content acao"></div>
+       <img onclick="avancarScroll('.carrocel-content.acao', 'right')" class="carrocel-seta" src="assets/images/seta-direita.webp">
+    </div>
+    
+    <div class="carrocel romance">
+     <img onclick="avancarScroll('.carrocel-content.romance', 'left')" class="carrocel-seta" src="assets/images/seta-esquerda.webp">
+      <div class="carrocel-content romance"></div>
+       <img onclick="avancarScroll('.carrocel-content.romance', 'right')" class="carrocel-seta" src="assets/images/seta-direita.webp">
+    </div>
       </main>
   `;
 
